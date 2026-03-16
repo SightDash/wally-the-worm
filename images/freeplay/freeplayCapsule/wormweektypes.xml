@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="wormweektypes.png">
+<SubTexture name="SPECIAL text instance 10000" x="0" y="0" width="100" height="28"/>
+<SubTexture name="WACOOB text instance 10000" x="100" y="0" width="100" height="28"/>
+<SubTexture name="WALLY text instance 10000" x="0" y="28" width="100" height="28"/>
+<SubTexture name="WINSTON text instance 10000" x="100" y="28" width="100" height="28"/>
+</TextureAtlas>

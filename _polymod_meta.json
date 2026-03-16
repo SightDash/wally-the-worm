@@ -1,0 +1,25 @@
+{
+  "title": "Wally the Worm",
+  "description": "Adds a new week with amazing cutscenes, and more!",
+  "contributors": [
+    {
+      "name": "Eggum"
+    },
+    {
+      "name": "SightDash"
+    },
+    {
+      "name": "LAZOR"
+    },
+    {
+      "name": "Prince Taggar"
+    },
+    {
+      "name": "Rio"
+    }
+  ],
+  "optionalDependencies": {},
+  "api_version": "0.8.2",
+  "mod_version": "0.9.0",
+  "license": "CC BY 4.0"
+}

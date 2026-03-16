@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="AltIdleToggleBF.png" width="256" height="256">
+	<SubTexture name="AltIdleToggleBF0000" x="5" y="5" width="256" height="256"/>
+</TextureAtlas>

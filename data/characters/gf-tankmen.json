@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "name": "F. Girlfriend (Tankman Stickup)",
+  "assetPath": "characters/faithGF-tank",
+  "startingAnimation": "danceLeft",
+  "offsets": [0, 5],
+  "healthIcon": {"id": "gf"},
+  "animations": [
+    {
+      "name": "danceLeft",
+      "prefix": "GF TANK idle",
+      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "offsets": [0, 0]
+    },
+    {
+      "name": "danceRight",
+      "prefix": "GF TANK idle",
+      "frameIndices": [
+        13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+      ],
+      "offsets": [0, 0]
+    },
+    {
+      "name": "cheer",
+      "prefix": "GF TANK hey",
+      "offsets": [0, 11]
+    },
+    {
+      "name": "sad",
+      "prefix": "GF TANK sad",
+      "offsets": [0, -2]
+    },
+    {
+      "name": "combo50",
+      "prefix": "GF TANK hey",
+      "offsets": [0, 11]
+    },
+    {
+      "name": "combo200",
+      "prefix": "GF TANK 200combo",
+      "offsets": [0, -10]
+    },
+    {
+      "name": "drop70",
+      "prefix": "GF TANK sad",
+      "offsets": [0, -2]
+    }
+  ]
+}

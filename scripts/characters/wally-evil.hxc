@@ -1,0 +1,56 @@
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import flixel.tweens.FlxEase;
+import flixel.FlxSprite;
+import flixel.tweens.FlxTween;
+import funkin.util.FlxTweenUtil;
+import funkin.play.character.BaseCharacter;
+
+class WallyEvilCharacter extends MultiSparrowCharacter {
+	var Tween:FlxTween;
+
+	function new() {
+		super('wally-evil');
+	}
+
+	override function onCreate(event:ScriptEvent):Void
+	{
+		super.onCreate(event);
+		Tween = FlxTween.num(0, 50, 4,{ //makes wally float and stuff
+			ease: FlxEase.sineInOut,
+			type: 4
+		}, function (value:Float) {if (Tween.active){set_y(value);}});
+	}
+
+	function onPause(event:PauseScriptEvent) {
+		FlxTweenUtil.pauseTween(Tween);
+	}
+
+  function onResume(event:ScriptEvent) {
+		FlxTweenUtil.resumeTween(Tween);
+	}
+	
+	  var isNightmare:Bool = false;
+
+  override function playAnimation(name:String, restart:Bool, ignoreOther:Bool)
+  {
+    if (isNightmare)
+    {
+      super.playAnimation(name + '-nightmare', restart, ignoreOther);
+    }
+    else
+    {
+      super.playAnimation(name, restart, ignoreOther);
+    }
+	
+    if (name == 'transition') isNightmare = true;
+  }
+  
+  override function onSongRetry(event:ScriptEvent):Void
+  {
+    super.onSongRetry(event);
+
+    isNightmare = false;
+  }
+}

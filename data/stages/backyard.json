@@ -1,0 +1,65 @@
+{
+ "version": "1.0.2",
+ "name": "Backyard",
+ "props": [
+  {
+   "assetPath": "image0",
+   "atlasSettings": null,
+   "name": "background",
+   "position": [-915, -250],
+   "scale": [
+	1500,
+	0.5
+],
+   "scroll": [1, 1.05],
+   "startingAnimation": "",
+   "zIndex": 1
+  },
+  {
+   "assetPath": "image3",
+   "atlasSettings": null,
+   "name": "bg_hillfarm",
+   "position": [-650, -50],
+   "scale": 0.5,
+   "scroll": [1.1, 0.95],
+   "startingAnimation": "",
+   "zIndex": 2
+  },
+  {
+   "assetPath": "image2",
+   "atlasSettings": null,
+   "name": "bg_hill",
+   "position": [-711, -235],
+   "scale": 0.7,
+   "scroll": [0.75, 0.9],
+   "startingAnimation": "",
+   "zIndex": 3
+  },
+  {
+   "assetPath": "image1",
+   "atlasSettings": null,
+   "name": "floor",
+   "position": [-767, -307],
+   "scale": 0.7,
+   "startingAnimation": "",
+   "zIndex": 4
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-180, -100],
+   "position": [650, 776],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [200, -75],
+   "position": [-139.55, 833.9],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [271, 663],
+   "zIndex": 100
+  }
+ }
+}

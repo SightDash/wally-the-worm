@@ -1,0 +1,189 @@
+{
+  "version": "1.0.0",
+  "name": "F. Boyfriend",
+  "renderType": "multianimateatlas",
+  "assetPath": "shared:characters/faithBF_TA",
+  "healthIcon": {"id": "bf"},
+  "offsets": [0, 15],
+  "flipX": true,
+  "singTime": 8.0,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "BF idle",
+	  "animType": "symbol",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "BF left",
+	  "animType": "symbol",
+      "offsets": [6, 16]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "BF down",
+	  "animType": "symbol",
+      "offsets": [-15, -43]
+    },
+    {
+      "name": "singUP",
+      "prefix": "BF up",
+	  "animType": "symbol",
+      "offsets": [-30, 50]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "BF right",
+	  "animType": "symbol",
+      "offsets": [-48, 7]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "BF miss left",
+	  "animType": "symbol",
+      "offsets": [6, 16]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "BF miss down",
+	  "animType": "symbol",
+      "offsets": [-18, -43]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "BF miss up",
+	  "animType": "symbol",
+      "offsets": [-30, 50]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "BF miss right",
+	  "animType": "symbol",
+      "offsets": [-48, 7]
+    },
+    {
+      "name": "hey",
+      "prefix": "BF hey",
+	  "animType": "symbol",
+      "offsets": [-3, 9]
+    },
+    {
+      "name": "cheer",
+      "prefix": "BF cheer",
+	  "animType": "symbol",
+      "offsets": [-25, -15]
+    },
+    {
+      "name": "scared",
+      "prefix": "BF scared",
+	  "animType": "symbol",
+      "offsets": [-7, -2]
+    },
+    {
+      "name": "hit",
+      "prefix": "BF hit_",
+	  "animType": "symbol",
+      "offsets": [-15, 20]
+    },
+    {
+      "name": "hit-hold",
+      "prefix": "BF hit_",
+      "offsets": [-15, 20],
+	  "frameIndices": [4, 5],
+	  "looped": true,
+	  "animType": "symbol"
+    },
+    {
+      "name": "dodge",
+      "prefix": "BF dodge",
+	  "animType": "symbol",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "dodge-hold",
+      "prefix": "BF dodge",
+      "offsets": [0, 0],
+	  "frameIndices": [2, 3, 4],
+	  "looped": true,
+	  "animType": "symbol"
+    },
+    {
+      "name": "preAttack",
+      "prefix": "BF pre-attack",
+	  "animType": "symbol",
+      "offsets": [-55, -50]
+    },
+    {
+      "name": "attack",
+      "prefix": "BF attack",
+	  "animType": "symbol",
+      "offsets": [475, 110]
+    },
+    {
+      "name": "transition",
+      "prefix": "BF ALT transition",
+	  "animType": "symbol",
+      "offsets": [-2, -1]
+    },
+    {
+      "name": "idle-alt",
+      "prefix": "BF ALT idle",
+	  "animType": "symbol",
+      "offsets": [-8, -6]
+    },
+    {
+      "name": "singLEFT-alt",
+      "prefix": "BF ALT left",
+	  "animType": "symbol",
+      "offsets": [25, 0]
+    },
+    {
+      "name": "singDOWN-alt",
+      "prefix": "BF ALT down",
+	  "animType": "symbol",
+      "offsets": [15, -65]
+    },
+    {
+      "name": "singUP-alt",
+      "prefix": "BF ALT up",
+	  "animType": "symbol",
+      "offsets": [-30, 30]
+    },
+    {
+      "name": "singRIGHT-alt",
+      "prefix": "BF ALT right",
+	  "animType": "symbol",
+      "offsets": [-52, 25]
+    },
+    {
+      "name": "firstDeath",
+	  "assetPath": "shared:characters/faithBF-dead_TA",
+      "prefix": "BF dead intro",
+	  "animType": "symbol",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "fakeoutDeath",
+	  "assetPath": "shared:characters/faithBF-dead_TA",
+      "prefix": "fake out death BF",
+	  "animType": "symbol",
+      "offsets": [0, 7]
+    },
+    {
+      "name": "deathLoop",
+	  "assetPath": "shared:characters/faithBF-dead_TA",
+      "prefix": "BF dead loop",
+      "looped": true,
+	  "animType": "symbol",
+      "offsets": [0, -3]
+    },
+    {
+      "name": "deathConfirm",
+	  "assetPath": "shared:characters/faithBF-dead_TA",
+      "prefix": "BF dead confirm",
+	  "animType": "symbol",
+      "offsets": [0, 104]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": "2.2.4",
+  "songName": "Devastation",
+  "artist": "LAZOR",
+  "charter": "SightDash",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {  },
+    "vocals": {  },
+    "altVocals": {  }
+  },
+  "playData": {
+    "songVariations": [],
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "bf",
+      "girlfriend": "gf",
+      "opponent": "wally-evil",
+      "instrumental": "",
+      "altInstrumentals": [],
+      "opponentVocals": [
+        "wallyEvil"
+      ],
+      "playerVocals": [
+        "bf"
+      ]
+    },
+    "stage": "wormCaveDeep",
+    "noteStyle": "funkin",
+    "ratings": {
+      "easy": 4,
+      "normal": 5,
+      "hard": 6
+    },
+    "album": "volume1-wally",
+    "stickerPack": "standard-wally",
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Friday Night Funkin' - v0.7.5",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 135,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    },
+    {
+      "t": 130788.158,
+      "b": 294.2734,
+      "bpm": 145,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
+}

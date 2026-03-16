@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="faithBF-censor.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF JOLLY censor down0000" x="10" y="10" width="353" height="392"/>
+	<SubTexture name="BF JOLLY censor down0001" x="373" y="10" width="353" height="392"/>
+	<SubTexture name="BF JOLLY censor down0002" x="736" y="10" width="353" height="392"/>
+	<SubTexture name="BF JOLLY censor down0003" x="1099" y="10" width="353" height="392"/>
+	<SubTexture name="BF JOLLY censor down0004" x="1462" y="10" width="353" height="392"/>
+	<SubTexture name="BF JOLLY censor down0005" x="1825" y="10" width="353" height="392"/>
+	<SubTexture name="BF JOLLY censor left0000" x="2188" y="10" width="375" height="442"/>
+	<SubTexture name="BF JOLLY censor left0001" x="2573" y="10" width="375" height="442"/>
+	<SubTexture name="BF JOLLY censor left0002" x="2958" y="10" width="375" height="442"/>
+	<SubTexture name="BF JOLLY censor left0003" x="3343" y="10" width="375" height="442"/>
+	<SubTexture name="BF JOLLY censor left0004" x="10" y="462" width="375" height="442"/>
+	<SubTexture name="BF JOLLY censor left0005" x="395" y="462" width="375" height="442"/>
+	<SubTexture name="BF JOLLY censor right0000" x="780" y="462" width="385" height="437"/>
+	<SubTexture name="BF JOLLY censor right0001" x="1175" y="462" width="385" height="437"/>
+	<SubTexture name="BF JOLLY censor right0002" x="1570" y="462" width="385" height="437"/>
+	<SubTexture name="BF JOLLY censor right0003" x="1965" y="462" width="385" height="437"/>
+	<SubTexture name="BF JOLLY censor right0004" x="2360" y="462" width="385" height="437"/>
+	<SubTexture name="BF JOLLY censor right0005" x="2755" y="462" width="385" height="437"/>
+	<SubTexture name="BF JOLLY censor up0000" x="3150" y="462" width="379" height="469"/>
+	<SubTexture name="BF JOLLY censor up0001" x="3539" y="462" width="379" height="469"/>
+	<SubTexture name="BF JOLLY censor up0002" x="10" y="941" width="379" height="469"/>
+	<SubTexture name="BF JOLLY censor up0003" x="399" y="941" width="379" height="469"/>
+	<SubTexture name="BF JOLLY censor up0004" x="788" y="941" width="379" height="469"/>
+	<SubTexture name="BF JOLLY censor up0005" x="1177" y="941" width="379" height="469"/>
+</TextureAtlas>

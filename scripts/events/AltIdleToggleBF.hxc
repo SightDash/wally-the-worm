@@ -1,0 +1,88 @@
+// Custom event for toggling between default and alternate idle animations for Diego's BF design.
+// Script written by String.
+
+import funkin.data.event.SongEventSchema;
+import funkin.modding.module.Module;
+import funkin.modding.module.ModuleHandler;
+import funkin.play.PlayState;
+import funkin.play.event.ScriptedSongEvent;
+
+/**
+ * Custom event that toggles between default and a custom alt animation.
+ */
+class AltIdleToggleBF extends ScriptedSongEvent
+{
+  public function new()
+  {
+    super('AltIdleToggleBF');
+  }
+
+  override function handleEvent(data):Void
+  {
+    var module = ModuleHandler.getModule('AltIdleToggleManager');
+    module.toggled = !module.toggled;
+
+    var bf = PlayState.instance.currentStage?.getBoyfriend();
+    if (bf == null)
+    {
+      return;
+    }
+
+    bf.idleSuffix = module.toggled ? '-alt' : '';
+    bf.danceEvery = module.toggled ? 2.0 : 1.0;
+
+    // Play the transition animation.
+    if (module.toggled)
+    {
+      bf.playAnimation('transition', false, true);
+    }
+  }
+
+  override function getTitle():String
+  {
+    return 'Toggle BF Idle (Faithful Funkers)';
+  }
+
+  override function getEventSchema():Array<SongEventSchema>
+  {
+    return [];
+  }
+}
+
+/**
+ * Module manager for ensuring BF's idle animation gets reset when
+ * the song restarts or has loaded into another one.
+ */
+class AltIdleToggleManager extends Module
+{
+  /**
+   * Is the alternate idle animation enabled?
+   */
+  public var toggled:Bool = false;
+
+  public function new()
+  {
+    super('AltIdleToggleManager');
+  }
+
+  override function onSongLoaded(event):Void
+  {
+    resetBf();
+  }
+
+  override function onSongRetry(event):Void
+  {
+    resetBf();
+  }
+
+  function resetBf():Void
+  {
+    var bf = PlayState.instance.currentStage?.getBoyfriend();
+    if (bf == null)
+    {
+      return;
+    }
+    toggled = false;
+    bf.idleSuffix = '';
+  }
+}

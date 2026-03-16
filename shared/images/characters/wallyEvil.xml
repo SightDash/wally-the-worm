@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="wallyEvil.png">
+<SubTexture name="wallyEvil idle0000" x="0" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singDOWN0000" x="210" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singDOWN0001" x="420" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singDOWN0002" x="420" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singLEFT0000" x="630" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singLEFT0001" x="840" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singLEFT0002" x="840" y="0" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singRIGHT0000" x="0" y="515" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singRIGHT0001" x="210" y="515" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singRIGHT0002" x="210" y="515" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singUP0000" x="420" y="515" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singUP0001" x="630" y="515" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+<SubTexture name="wallyEvil singUP0002" x="630" y="515" width="210" height="515" frameX="0" frameY="0" frameWidth="194" frameHeight="499" />
+</TextureAtlas>

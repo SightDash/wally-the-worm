@@ -1,0 +1,70 @@
+{
+ "version": "1.0.2",
+ "name": "Worm Cave",
+ "props": [
+  {
+   "assetPath": "caveBG4",
+   "atlasSettings": null,
+   "name": "caveBG-4",
+   "position": [-456, -593],
+   "scale": 1.6,
+   "startingAnimation": ""
+  },
+  {
+   "assetPath": "caveBG3",
+   "atlasSettings": null,
+   "name": "caveBG-3",
+   "position": [94, -220],
+   "scale": 1,
+   "scroll": [0.9, 0.9],
+   "startingAnimation": "",
+   "zIndex": 2
+  },
+  {
+   "assetPath": "caveBG2",
+   "atlasSettings": null,
+   "name": "caveBG-2",
+   "position": [95, -220],
+   "scale": 1,
+   "scroll": [0.95, 0.95],
+   "startingAnimation": "",
+   "zIndex": 3
+  },
+  {
+   "assetPath": "caveBG1",
+   "atlasSettings": null,
+   "name": "caveBG-1",
+   "position": [34, -220],
+   "scale": 1,
+   "startingAnimation": "",
+   "zIndex": 4
+  },
+  {
+   "assetPath": "image1-s2",
+   "atlasSettings": null,
+   "name": "song2-floor",
+   "position": [-1221, -31],
+   "scale": 1.5,
+   "startingAnimation": "",
+   "zIndex": 5
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-100, -100],
+   "position": [1191.5, 905],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [150, -100],
+   "position": [385.45, 900.9],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, 0],
+   "position": [805.5, 764],
+   "zIndex": 100
+  }
+ },
+ "cameraZoom": 0.8
+}

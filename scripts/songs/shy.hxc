@@ -1,0 +1,61 @@
+import funkin.graphics.FunkinSprite;
+import funkin.play.PlayState;
+import funkin.play.song.Song;
+import funkin.save.Save;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.CutsceneType;
+import funkin.play.PlayStatePlaylist;
+
+class ShySong extends Song {
+	var hasPlayedCutscene:Bool;
+	var bgSprite:FunkinSprite;
+	
+	public function new() {
+		hasPlayedCutscene = false;
+		super('shy',
+      {
+        variation: null
+      });
+	}
+	
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+    super.onCountdownStart(event);
+
+    if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
+
+    if (!hasPlayedCutscene)
+    {
+      trace('Pausing countdown to play a video cutscene (`shy`)');
+
+      hasPlayedCutscene = true;
+
+      event.cancel(); // CANCEL THE COUNTDOWN!
+
+      startVideo();
+    }
+  }
+
+  function startVideo()
+  {
+    VideoCutscene.play(Paths.videos('shyCutscene'));
+  }
+  function onSongRetry(event:ScriptEvent)
+  {
+    super.onSongRetry(event);
+
+    hasPlayedCutscene = true;
+  }
+  function onCreate(event:ScriptEvent):Void
+  {
+    super.onCreate(event);
+
+    hasPlayedCutscene = false;
+  }
+  
+    public override function isSongNew(currentDifficulty:String, currentVariation:String):Bool
+  {
+    if (currentVariation == null) return !Save.instance.hasBeatenSong(this.id, null, this.variation);
+
+    return false;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timeFormat": "ms",
+  "artist": "LAZOR",
+  "songName": "Wally Menu",
+  "timeChanges": [{ "d": 4, "n": 4, "t": 0, "bt": [2, 2, 2, 2], "bpm": 120 }],
+  "generatedBy": "Manual (by SightDash)",
+  "looped": true,
+  "version": "2.0.0"
+}
