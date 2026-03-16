@@ -1,4 +1,4 @@
-Welcome to Wally the Worm mod! These are all the changes made up until this point.
+Welcome to Wally the Worm mod!
 
 Installation requirements:
 - Latest version of [FNF](https://ninja-muffin24.itch.io/funkin/download/eyJpZCI6NzkyNzc4LCJleHBpcmVzIjoxNzczNjgyODI1fQ%3d%3d.Bgx7WBWTcWEIC4QkjkLTrqj5qrU%3d);
@@ -14,10 +14,10 @@ How to setup (for dummies):
 
 The mod *should* work the same on both PC and mobile devices, without having to download separate versions.
 
-Here are the changes made up until this point:
+Changelog:
 
 Pre-release 0.2:
 - Mobile fixes.
 
 Pre-release 0.1:
-- Mod source code is released.
+- Mod source code is released!
