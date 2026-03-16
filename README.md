@@ -16,9 +16,16 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
+Pre-release 0.3.1:
+- Camera now zooms out when focused on GF in Devastation (not including the cheering parts at the end)
+- Nightmare health icon no longer appears early during Evil Wally's transition animation.
+- (Easy/Normal/Hard) Changed a section in Devastation to be more fair to play.
+- (Easy/Normal/Hard) Moved 1 opponent note in Devastation to sync better with the vocals.
+- (Easy/Normal/Hard) A note in the first "Yeah!" part in Devastation no longer plays an animation.
+
 Pre-release 0.3:
-- (Easy/Normal/Hard) Added more camera events in Devastation.
-- Changed 2 opponent notes in Devastation chart to be sync better with the vocals.
+- Added more camera events in Devastation.
+- (Easy/Normal/Hard) Moved 2 opponent notes in Devastation to sync better with the vocals.
 
 Pre-release 0.2:
 - Mobile fixes.
