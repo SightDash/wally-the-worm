@@ -58,21 +58,10 @@ class DevastationSong extends Song {
         }
 	  }
     }
-	
-	function centerPlayerStrumline() {
-    if (Preferences.controlsScheme == "Arrows" && !ControlsHandler.usingExternalInputDevice) return;
-
-      var playerStrumline:FlxSprite = PlayState.instance.playerStrumline;
-      if (playerStrumline != null)
-      {
-        playerStrumline.x = FlxG.width / 2 - playerStrumline.width / 2;
-      }
-	}
 
 	override function onUpdate(event:UpdateScriptEvent):Void {
 		super.onUpdate(event);
 		hideOpponentStrumline();
-		centerPlayerStrumline();
 		HoldNoteHealthDrain(event.elapsed);
 	}
 
