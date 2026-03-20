@@ -16,6 +16,9 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
+Pre-release 0.4.1:
+- General bug fixes.
+
 Pre-release 0.4.0:
 - Removed leftover/unused assets.
 
