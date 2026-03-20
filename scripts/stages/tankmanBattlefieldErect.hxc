@@ -49,7 +49,7 @@ class TankmanBattlefieldErectStage extends Stage
 
         if (getGirlfriend().characterId == 'gf-tankmen' || getGirlfriend().characterId == 'nene-tankmen')
         {
-          if (getGirlfriend().characterId == 'gf-tankmen') rim.loadAltMask(Paths.image('erect/masks/gfTankmen_mask'));
+          if (getGirlfriend().characterId == 'gf-tankmen') rim.loadAltMask(Paths.image('week7/images/erect/masks/gfTankmen_mask'));
           else
             rim.loadAltMask(Paths.image('erect/masks/neneTankmen_mask'));
           rim.maskThreshold = 0.4;
@@ -79,7 +79,8 @@ class TankmanBattlefieldErectStage extends Stage
     // TODO: This is here because of a Polymod bug!!
     var character_persist:BaseCharacter = character;
 
-    character.animation.onFrameChange.add(function() {
+    character.animation.onFrameChange.add(function()
+    {
       if (character_persist != null)
       {
         rim.updateFrameInfo(character_persist.frame);

@@ -1,9 +1,9 @@
-import funkin.play.character.SparrowCharacter;
+import funkin.play.character.MultiAnimateAtlasCharacter;
 import funkin.play.character.CharacterType;
 import funkin.play.PlayState;
 import flixel.addons.effects.FlxTrail;
 
-class GirlfriendCharacter extends SparrowCharacter
+class GirlfriendCharacter extends MultiAnimateAtlasCharacter
 {
   function new()
   {

@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "name": "F. Boyfriend (Christmas)",
+  "renderType": "multianimateatlas",
+  "assetPath": "shared:characters/faithBF-jolly",
+  "healthIcon": {"id": "bf"},
+  "offsets": [0, 35],
+  "cameraOffsets": [50, 25],
+  "flipX": true,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "hey",
+      "prefix": "Hey"
+    },
+    {
+      "name": "singLEFT-censor",
+      "prefix": "Left Censor"
+    },
+    {
+      "name": "singDOWN-censor",
+      "prefix": "Down Censor"
+    },
+    {
+      "name": "singUP-censor",
+      "prefix": "Up Censor"
+    },
+    {
+      "name": "singRIGHT-censor",
+      "prefix": "Right Censor"
+    },
+    {
+      "name": "firstDeath",
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Intro"
+    },
+    {
+      "name": "fakeoutDeath",
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Fakeout"
+    },
+    {
+      "name": "deathLoop",
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Loop",
+      "looped": true
+    },
+    {
+      "name": "deathConfirm",
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Confirm"
+    }
+  ]
+}

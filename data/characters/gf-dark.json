@@ -1,54 +1,47 @@
 {
   "version": "1.0.0",
   "name": "F. Girlfriend (Dark)",
-  "assetPath": "characters/faithGF-dark",
+  "renderType": "animateatlas",
+  "assetPath": "shared:characters/faithGF-dark",
   "startingAnimation": "danceLeft",
+  "offsets": [-15.5, 5],
   "healthIcon": {"id": "gf"},
+  "atlasSettings": {
+	"useRenderTexture": true
+  },
   "animations": [
     {
       "name": "danceLeft",
-      "prefix": "GF DARK idle",
-      "frameIndices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "offsets": [0, -9]
+      "prefix": "Dance Left"
     },
     {
       "name": "danceRight",
-      "prefix": "GF DARK idle",
-      "frameIndices": [
-        13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
-      ],
-      "offsets": [0, -9]
+      "prefix": "Dance Right"
     },
     {
       "name": "sad",
-      "prefix": "GF DARK sad",
-      "offsets": [0, -11]
+      "prefix": "Sad"
     },
     {
       "name": "cheer",
-      "prefix": "GF DARK hey",
-      "offsets": [0, 2]
+      "prefix": "Cheer"
     },
     {
       "name": "combo50",
-      "prefix": "GF DARK hey",
-      "offsets": [0, 2]
+      "prefix": "Cheer"
     },
     {
       "name": "combo200",
-      "prefix": "GF DARK 200combo",
-      "offsets": [0, -19]
+      "prefix": "High Combo"
     },
     {
       "name": "drop70",
-      "prefix": "GF DARK sad",
-      "offsets": [0, -11]
+      "prefix": "Sad"
     },
     {
       "name": "scared",
-      "prefix": "GF DARK scared",
-	  "frameIndices": [0, 1, 2, 3],
-      "offsets": [0, -9]
+      "prefix": "Scared",
+	  "frameIndices": [0, 1, 2, 3]
     }
   ]
 }

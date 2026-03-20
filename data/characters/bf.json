@@ -2,188 +2,138 @@
   "version": "1.0.0",
   "name": "F. Boyfriend",
   "renderType": "multianimateatlas",
-  "assetPath": "shared:characters/faithBF_TA",
-  "healthIcon": {"id": "bf"},
-  "offsets": [0, 15],
+  "assetPath": "shared:characters/faithBF",
+  "offsets": [-120, 15],
+  "cameraOffsets": [100, 50],
+  "death": {
+	"cameraOffsets": [125, -20]
+  },
   "flipX": true,
-  "singTime": 8.0,
   "animations": [
     {
       "name": "idle",
-      "prefix": "BF idle",
-	  "animType": "symbol",
-      "offsets": [0, 0]
+      "prefix": "Idle"
     },
     {
       "name": "singLEFT",
-      "prefix": "BF left",
-	  "animType": "symbol",
-      "offsets": [6, 16]
+      "prefix": "Left"
     },
     {
       "name": "singDOWN",
-      "prefix": "BF down",
-	  "animType": "symbol",
-      "offsets": [-15, -43]
+      "prefix": "Down"
     },
     {
       "name": "singUP",
-      "prefix": "BF up",
-	  "animType": "symbol",
-      "offsets": [-30, 50]
+      "prefix": "Up"
     },
     {
       "name": "singRIGHT",
-      "prefix": "BF right",
-	  "animType": "symbol",
-      "offsets": [-48, 7]
+      "prefix": "Right"
     },
     {
       "name": "singLEFTmiss",
-      "prefix": "BF miss left",
-	  "animType": "symbol",
-      "offsets": [6, 16]
+      "prefix": "Left Miss"
     },
     {
       "name": "singDOWNmiss",
-      "prefix": "BF miss down",
-	  "animType": "symbol",
-      "offsets": [-18, -43]
+      "prefix": "Down Miss"
     },
     {
       "name": "singUPmiss",
-      "prefix": "BF miss up",
-	  "animType": "symbol",
-      "offsets": [-30, 50]
+      "prefix": "Up Miss"
     },
     {
       "name": "singRIGHTmiss",
-      "prefix": "BF miss right",
-	  "animType": "symbol",
-      "offsets": [-48, 7]
+      "prefix": "Right Miss"
     },
     {
       "name": "hey",
-      "prefix": "BF hey",
-	  "animType": "symbol",
-      "offsets": [-3, 9]
+      "prefix": "Hey"
     },
     {
       "name": "cheer",
-      "prefix": "BF cheer",
-	  "animType": "symbol",
-      "offsets": [-25, -15]
+      "prefix": "Cheer"
     },
     {
       "name": "scared",
-      "prefix": "BF scared",
-	  "animType": "symbol",
-      "offsets": [-7, -2]
+      "prefix": "Scared"
     },
     {
       "name": "hit",
-      "prefix": "BF hit_",
-	  "animType": "symbol",
-      "offsets": [-15, 20]
+      "prefix": "Hit"
     },
     {
       "name": "hit-hold",
-      "prefix": "BF hit_",
-      "offsets": [-15, 20],
+      "prefix": "Hit",
 	  "frameIndices": [4, 5],
-	  "looped": true,
-	  "animType": "symbol"
+	  "looped": true
     },
     {
       "name": "dodge",
-      "prefix": "BF dodge",
-	  "animType": "symbol",
-      "offsets": [0, 0]
+      "prefix": "Dodge"
     },
     {
       "name": "dodge-hold",
-      "prefix": "BF dodge",
-      "offsets": [0, 0],
+      "prefix": "Dodge",
 	  "frameIndices": [2, 3, 4],
-	  "looped": true,
-	  "animType": "symbol"
+	  "looped": true
     },
     {
       "name": "preAttack",
-      "prefix": "BF pre-attack",
-	  "animType": "symbol",
-      "offsets": [-55, -50]
+      "prefix": "Pre-Attack"
     },
     {
       "name": "attack",
-      "prefix": "BF attack",
-	  "animType": "symbol",
-      "offsets": [475, 110]
+      "prefix": "Attack"
     },
     {
       "name": "transition",
-      "prefix": "BF ALT transition",
-	  "animType": "symbol",
-      "offsets": [-2, -1]
+      "prefix": "Transition"
     },
     {
       "name": "idle-alt",
-      "prefix": "BF ALT idle",
-	  "animType": "symbol",
-      "offsets": [-8, -6]
+      "prefix": "Idle ALT"
     },
     {
       "name": "singLEFT-alt",
-      "prefix": "BF ALT left",
-	  "animType": "symbol",
-      "offsets": [25, 0]
+      "prefix": "Left ALT"
     },
     {
       "name": "singDOWN-alt",
-      "prefix": "BF ALT down",
-	  "animType": "symbol",
-      "offsets": [15, -65]
+      "prefix": "Down ALT"
     },
     {
       "name": "singUP-alt",
-      "prefix": "BF ALT up",
-	  "animType": "symbol",
-      "offsets": [-30, 30]
+      "prefix": "Up ALT"
     },
     {
       "name": "singRIGHT-alt",
-      "prefix": "BF ALT right",
-	  "animType": "symbol",
-      "offsets": [-52, 25]
+      "prefix": "Right ALT"
     },
     {
       "name": "firstDeath",
-	  "assetPath": "shared:characters/faithBF-dead_TA",
-      "prefix": "BF dead intro",
-	  "animType": "symbol",
-      "offsets": [0, 0]
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Intro",
+	  "offsets": [-500, -20]
     },
     {
       "name": "fakeoutDeath",
-	  "assetPath": "shared:characters/faithBF-dead_TA",
-      "prefix": "fake out death BF",
-	  "animType": "symbol",
-      "offsets": [0, 7]
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Fakeout",
+	  "offsets": [-500, -20]
     },
     {
       "name": "deathLoop",
-	  "assetPath": "shared:characters/faithBF-dead_TA",
-      "prefix": "BF dead loop",
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Loop",
       "looped": true,
-	  "animType": "symbol",
-      "offsets": [0, -3]
+	  "offsets": [-500, -20]
     },
     {
       "name": "deathConfirm",
-	  "assetPath": "shared:characters/faithBF-dead_TA",
-      "prefix": "BF dead confirm",
-	  "animType": "symbol",
-      "offsets": [0, 104]
+	  "assetPath": "shared:characters/faithBF-dead",
+      "prefix": "Confirm",
+	  "offsets": [-500, -20]
     }
   ]
 }
