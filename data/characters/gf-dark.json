@@ -4,7 +4,7 @@
   "renderType": "animateatlas",
   "assetPath": "shared:characters/faithGF-dark",
   "startingAnimation": "danceLeft",
-  "offsets": [-15.5, 5],
+  "offsets": [30, 5],
   "healthIcon": {"id": "gf"},
   "atlasSettings": {
 	"useRenderTexture": true

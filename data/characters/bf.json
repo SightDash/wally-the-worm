@@ -1,139 +1,423 @@
 {
-  "version": "1.0.0",
-  "name": "F. Boyfriend",
-  "renderType": "multianimateatlas",
-  "assetPath": "shared:characters/faithBF",
-  "offsets": [-120, 15],
-  "cameraOffsets": [100, 50],
-  "death": {
-	"cameraOffsets": [125, -20]
-  },
-  "flipX": true,
-  "animations": [
-    {
-      "name": "idle",
-      "prefix": "Idle"
-    },
-    {
-      "name": "singLEFT",
-      "prefix": "Left"
-    },
-    {
-      "name": "singDOWN",
-      "prefix": "Down"
-    },
-    {
-      "name": "singUP",
-      "prefix": "Up"
-    },
-    {
-      "name": "singRIGHT",
-      "prefix": "Right"
-    },
-    {
-      "name": "singLEFTmiss",
-      "prefix": "Left Miss"
-    },
-    {
-      "name": "singDOWNmiss",
-      "prefix": "Down Miss"
-    },
-    {
-      "name": "singUPmiss",
-      "prefix": "Up Miss"
-    },
-    {
-      "name": "singRIGHTmiss",
-      "prefix": "Right Miss"
-    },
-    {
-      "name": "hey",
-      "prefix": "Hey"
-    },
-    {
-      "name": "cheer",
-      "prefix": "Cheer"
-    },
-    {
-      "name": "scared",
-      "prefix": "Scared"
-    },
-    {
-      "name": "hit",
-      "prefix": "Hit"
-    },
-    {
-      "name": "hit-hold",
-      "prefix": "Hit",
-	  "frameIndices": [4, 5],
-	  "looped": true
-    },
-    {
-      "name": "dodge",
-      "prefix": "Dodge"
-    },
-    {
-      "name": "dodge-hold",
-      "prefix": "Dodge",
-	  "frameIndices": [2, 3, 4],
-	  "looped": true
-    },
-    {
-      "name": "preAttack",
-      "prefix": "Pre-Attack"
-    },
-    {
-      "name": "attack",
-      "prefix": "Attack"
-    },
-    {
-      "name": "transition",
-      "prefix": "Transition"
-    },
-    {
-      "name": "idle-alt",
-      "prefix": "Idle ALT"
-    },
-    {
-      "name": "singLEFT-alt",
-      "prefix": "Left ALT"
-    },
-    {
-      "name": "singDOWN-alt",
-      "prefix": "Down ALT"
-    },
-    {
-      "name": "singUP-alt",
-      "prefix": "Up ALT"
-    },
-    {
-      "name": "singRIGHT-alt",
-      "prefix": "Right ALT"
-    },
-    {
-      "name": "firstDeath",
-	  "assetPath": "shared:characters/faithBF-dead",
-      "prefix": "Intro",
-	  "offsets": [-500, -20]
-    },
-    {
-      "name": "fakeoutDeath",
-	  "assetPath": "shared:characters/faithBF-dead",
-      "prefix": "Fakeout",
-	  "offsets": [-500, -20]
-    },
-    {
-      "name": "deathLoop",
-	  "assetPath": "shared:characters/faithBF-dead",
-      "prefix": "Loop",
-      "looped": true,
-	  "offsets": [-500, -20]
-    },
-    {
-      "name": "deathConfirm",
-	  "assetPath": "shared:characters/faithBF-dead",
-      "prefix": "Confirm",
-	  "offsets": [-500, -20]
-    }
-  ]
+	"renderType": "multianimateatlas",
+	"offsets": [
+		-120,
+		15
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraOffsets": [
+			125,
+			-20
+		]
+	},
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"id": "bf",
+		"flipX": false,
+		"isPixel": false,
+		"scale": 1
+	},
+	"assetPath": "shared:characters/faithBF",
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "F. Boyfriend",
+	"cameraOffsets": [
+		100,
+		50
+	],
+	"flipX": true,
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Left Miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Down Miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Up Miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Right Miss",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Hey",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Cheer",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "cheer"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Scared",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "scared"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Hit",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hit"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "Hit",
+			"frameIndices": [
+				4,
+				5
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "hit-hold",
+			"looped": true,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Dodge",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "dodge"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "Dodge",
+			"frameIndices": [
+				2,
+				3,
+				4
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "dodge-hold",
+			"looped": true,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Pre-Attack",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "preAttack"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Attack",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "attack"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Transition",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "transition"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Idle ALT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Left ALT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Down ALT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Up ALT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Right ALT",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt"
+		},
+		{
+			"offsets": [
+				-496,
+				-77
+			],
+			"prefix": "Intro",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "firstDeath",
+			"flipY": false,
+			"assetPath": "shared:characters/faithBF-dead",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-496,
+				-77
+			],
+			"prefix": "Fakeout",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "fakeoutDeath",
+			"flipY": false,
+			"assetPath": "shared:characters/faithBF-dead",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-496,
+				-77
+			],
+			"prefix": "Loop",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "deathLoop",
+			"looped": true,
+			"flipY": false,
+			"assetPath": "shared:characters/faithBF-dead",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-496,
+				-77
+			],
+			"prefix": "Confirm",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "deathConfirm",
+			"flipY": false,
+			"assetPath": "shared:characters/faithBF-dead",
+			"frameRate": 24
+		}
+	]
 }
