@@ -16,6 +16,13 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
+Pre-release 0.3.3:
+- Changed the Story Mode BF prop.xml to get the right width of the image path.
+
+Pre-release 0.3.2:
+- (Mobile) The GF and BF story menu props now render properly.
+- Player strumline on Devastation is no longer centered to fix a bug on Mobile, where you get polymod errors whenever you load the song.
+
 Pre-release 0.3.1:
 - Camera now zooms out when focused on GF in Devastation (not including the cheering parts at the end)
 - Nightmare health icon no longer appears early during Evil Wally's transition animation.
