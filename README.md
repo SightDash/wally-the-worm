@@ -16,6 +16,9 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
+Pre-release 0.4.0:
+- Removed leftover/unused assets.
+
 Pre-release 0.3.3:
 - Changed the Story Mode BF prop.xml to get the right width of the image path.
 
