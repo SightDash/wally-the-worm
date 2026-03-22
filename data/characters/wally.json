@@ -6,6 +6,7 @@
 		0
 	],
 	"danceEvery": 1,
+	"applyStageMatrix": false,
 	"scale": 0.45,
 	"name": "Wally",
 	"cameraOffsets": [
@@ -18,75 +19,87 @@
 	"isPixel": false,
 	"assetPath": "characters/wally",
 	"healthIcon": {
-		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
+		"isPixel": false,
 		"scale": 1,
-		"id": "wally",
-		"flipX": false
+		"flipX": false,
+		"id": "wally"
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
 	},
 	"animations": [
 		{
+			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Wally idle",
-			"name": "idle",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "idle"
 		},
 		{
-			"offsets": [
-				63,
-				-67
-			],
 			"flipY": false,
+			"offsets": [
+				66,
+				-37
+			],
 			"frameRate": 16,
 			"prefix": "Wally singLEFT0",
-			"name": "singLEFT",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singLEFT"
 		},
 		{
-			"offsets": [
-				-69,
-				-175
-			],
 			"flipY": false,
+			"offsets": [
+				-27,
+				-148
+			],
 			"frameRate": 16,
 			"prefix": "Wally singDOWN0",
-			"name": "singDOWN",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singDOWN"
 		},
 		{
+			"flipY": false,
 			"offsets": [
-				-56,
+				-53,
 				110
 			],
-			"flipY": false,
 			"frameRate": 16,
 			"prefix": "Wally singUP0",
-			"name": "singUP",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singUP"
 		},
 		{
-			"offsets": [
-				-58,
-				-115
-			],
 			"flipY": false,
+			"offsets": [
+				-56,
+				-114
+			],
 			"frameRate": 16,
 			"prefix": "Wally singRIGHT0",
-			"name": "singRIGHT",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singRIGHT"
 		}
 	]
 }
