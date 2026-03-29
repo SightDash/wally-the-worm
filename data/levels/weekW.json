@@ -1,6 +1,9 @@
 {
   "version": "1.0.0",
   "name": "WALLY",
+  "capsule": {
+    "name": "WALLY"
+  },
   "titleAsset": "storymenu/titles/weekW",
   "visible": true,
   "props": [

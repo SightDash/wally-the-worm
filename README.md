@@ -16,6 +16,10 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
+Pre-release 0.4.2:
+- Ported the mod to the latest version of FNF (0.8.4).
+- Small bug fixes.
+
 Pre-release 0.4.1:
 - General bug fixes.
 
