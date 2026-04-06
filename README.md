@@ -16,7 +16,10 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
-Pre-release 0.4.2:
+Pre-release 0.5.1:
+- Centered character in-game icons.
+
+Pre-release 0.5.0:
 - Ported the mod to the latest version of FNF (0.8.4).
 - Small bug fixes.
 
