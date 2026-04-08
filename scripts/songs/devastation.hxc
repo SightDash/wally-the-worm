@@ -9,12 +9,14 @@ import funkin.util.Constants;
 
 class DevastationSong extends Song {
 	var hasPlayedCutscene:Bool;
+	var hasPlayedOutroCutscene:Bool;
 	var bgSprite:FunkinSprite;
 
 	static inline final MIN_HEALTH:Float = 0.1;
 
 	public function new() {
 		hasPlayedCutscene = false;
+		hasPlayedOutroCutscene = false;
 		super('devastation', { variation: null });
 	}
 
@@ -22,42 +24,74 @@ class DevastationSong extends Song {
 		super.onCountdownStart(event);
 		if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true;
 		if (!hasPlayedCutscene) {
-			trace('Pausing countdown to play a video cutscene (`devastation`)');
+			trace('Pausing countdown to play a video cutscene (`devastationCutscene`)');
 			hasPlayedCutscene = true;
 			event.cancel();
 			startVideo();
 		}
 	}
 
-	function startVideo() {
+	function startVideo():Void {
 		VideoCutscene.play(Paths.videos('devastationCutscene'));
 	}
 
-	function onSongRetry(event:ScriptEvent) {
+	public override function onSongEnd(event:CountdownScriptEvent):Void {
+		super.onSongEnd(event);
+
+		if (!PlayStatePlaylist.isStoryMode) hasPlayedOutroCutscene = true;
+
+	if (!hasPlayedOutroCutscene)
+	{
+		trace('Pausing ending to play a video cutscene (`wallyCreditsCutscene`)');
+
+		hasPlayedOutroCutscene = true;
+
+		var bgSprite = new FunkinSprite(-100, -100);
+		bgSprite.makeSolidColor(2000, 2500, 0xFF000000);
+		bgSprite.cameras = [PlayState.instance.camHUD];
+		bgSprite.zIndex = 1000000;
+		PlayState.instance.add(bgSprite);
+		PlayState.instance.refresh();
+		event.cancel();
+		startOutroVideo();
+	}
+	else
+	{
+		hasPlayedOutroCutscene = false;
+		// DO NOT CANCEL THE EVENT!
+		}
+	}
+
+	function startOutroVideo():Void {
+		VideoCutscene.play(Paths.videos('wallyCreditsCutscene'), CutsceneType.ENDING);
+		hasPlayedOutroCutscene = true;
+	}
+
+	function onSongRetry(event:ScriptEvent):Void {
 		super.onSongRetry(event);
 		hasPlayedCutscene = true;
+		hasPlayedOutroCutscene = false;
 	}
 
 	function onCreate(event:ScriptEvent):Void {
 		super.onCreate(event);
 		hasPlayedCutscene = false;
+		hasPlayedOutroCutscene = false;
 	}
 
 	public override function isSongNew(currentDifficulty:String, currentVariation:String):Bool {
 		if (currentVariation == null) return !Save.instance.hasBeatenSong(this.id, null, this.variation);
 		return false;
 	}
-	
-	function hideOpponentStrumline() {
-    var opponentStrumline:FlxSprite = PlayState.instance.opponentStrumline;
-    if (opponentStrumline != null)
-      {
-        for (arrow in opponentStrumline.members)
-        {
-          arrow.visible = false;
-        }
-	  }
-    }
+
+	function hideOpponentStrumline():Void {
+		var opponentStrumline:FlxSprite = PlayState.instance.opponentStrumline;
+		if (opponentStrumline != null) {
+			for (arrow in opponentStrumline.members) {
+				arrow.visible = false;
+			}
+		}
+	}
 
 	override function onUpdate(event:UpdateScriptEvent):Void {
 		super.onUpdate(event);
