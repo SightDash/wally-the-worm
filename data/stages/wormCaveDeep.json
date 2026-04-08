@@ -91,7 +91,7 @@
       "zIndex": 200
     },
     "gf": {
-      "alpha": 0,
+      "alpha": 1,
       "angle": 0,
       "cameraOffsets": [
         0,
