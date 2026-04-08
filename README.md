@@ -16,6 +16,12 @@ The mod *should* work the same on both PC and mobile devices, without having to 
 
 Changelog:
 
+Pre-release 0.5.2:
+- (Hard only) Moved most notes in Shy so they're properly synced with the vocals.
+- (Easy/Normal/Hard) Added cam zoom events in Shy, whenever the camera is focused on GF.
+- (Easy/Normal/Hard) Changed a section in Devastation.
+- GF is now visible in Devastation.
+
 Pre-release 0.5.1:
 - Centered character in-game icons.
 
