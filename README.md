@@ -18,8 +18,11 @@ The mod is cross-platform, meaning it works on both PC and mobile devices (Andro
 
 # Changelog:
 
-### Pre-release 0.5.2:
+### Pre-release 0.5.3:
 - Added the mod credits as a cutscene that plays at the end of Devastation.
+- Changed some camera events in Devastation.
+
+### Pre-release 0.5.2:
 - (Hard only) Moved most notes in Shy so they're properly synced with the vocals.
 - Added cam zoom events in Shy, whenever the camera is focused on GF.
 - (Easy/Normal/Hard) Changed a section in Devastation.
