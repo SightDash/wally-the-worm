@@ -1,114 +1,153 @@
 {
-  "version": "1.0.2",
-  "name": "Worm Cave (Deep)",
-  "props": [
-    {
-      "alpha": 1,
-      "angle": 0,
-      "animType": "sparrow",
-      "animations": [      ],
-      "assetPath": "image0-s3",
-      "blend": "",
-      "color": "#FFFFFF",
-      "danceEvery": 0,
-      "flipX": false,
-      "flipY": false,
-      "isPixel": false,
-      "name": "background",
-      "position": [
-        -820,
-        -348
-      ],
-      "scale": 1.2,
-      "scroll": [
-        1,
-        0.5
-      ],
-      "startingAnimation": "",
-      "zIndex": 0
-    },
-    {
-      "alpha": 1,
-      "angle": 0,
-      "animType": "sparrow",
-      "animations": [      ],
-      "assetPath": "image1-s3",
-      "blend": "",
-      "color": "#FFFFFF",
-      "danceEvery": 0,
-      "flipX": false,
-      "flipY": false,
-      "isPixel": false,
-      "name": "floor",
-      "position": [
-        -820,
-        -223
-      ],
-      "scale": 1.2,
-      "scroll": [
-        1,
-        1
-      ],
-      "startingAnimation": "",
-      "zIndex": 1
-    }
-  ],
-  "characters": {
-    "bf": {
-      "alpha": 1,
-      "angle": 0,
-      "cameraOffsets": [
-        -100,
-        -100
-      ],
-      "position": [
-        894.5,
-        859
-      ],
-      "scale": 1,
-      "scroll": [
-        1,
-        1
-      ],
-      "zIndex": 300
-    },
-    "dad": {
-      "alpha": 1,
-      "angle": 0,
-      "cameraOffsets": [
-        150,
-        -50
-      ],
-      "position": [
-        135,
-        535.66352554352
-      ],
-      "scale": 1,
-      "scroll": [
-        1,
-        1
-      ],
-      "zIndex": 200
-    },
-    "gf": {
-      "alpha": 1,
-      "angle": 0,
-      "cameraOffsets": [
-        0,
-        0
-      ],
-      "position": [
-        524.5,
-        764
-      ],
-      "scale": 1,
-      "scroll": [
-        1,
-        1
-      ],
-      "zIndex": 100
-    }
+ "version": "1.0.2",
+ "name": "Worm Cave (Deep)",
+ "props": [
+  {
+   "assetPath": "bg",
+   "atlasSettings": null,
+   "name": "bg",
+   "position": [-1061, -680],
+   "scale": 0.8,
+   "scroll": [1.05, 0.85],
+   "startingAnimation": "",
+   "zIndex": 1
   },
-  "cameraZoom": 0.9,
-  "directory": "shared"
+  {
+   "assetPath": "bg_gradient",
+   "atlasSettings": null,
+   "name": "bg-gradient",
+   "position": [-777, -680],
+   "scale": 0.8,
+   "scroll": [1.05, 0.85],
+   "startingAnimation": "",
+   "zIndex": 2
+  },
+  {
+   "assetPath": "lava",
+   "atlasSettings": null,
+   "name": "lava",
+   "position": [-1059, 77],
+   "scale": 0.8,
+   "scroll": [1, 0.9],
+   "startingAnimation": "",
+   "zIndex": 3
+  },
+  {
+   "assetPath": "stone_platform",
+   "atlasSettings": null,
+   "name": "platform",
+   "position": [-52, 517],
+   "scale": 0.7,
+   "startingAnimation": "",
+   "zIndex": 4
+  },
+  {
+   "assetPath": "stalagmite_lava-right",
+   "atlasSettings": null,
+   "name": "stalagmite-right",
+   "position": [1215, -2],
+   "scale": 0.8,
+   "scroll": [1, 0.9],
+   "startingAnimation": "",
+   "zIndex": 4
+  },
+  {
+   "assetPath": "stalagmite_lava-front",
+   "atlasSettings": null,
+   "name": "stalagmite-front",
+   "position": [292, -469],
+   "scale": 0.8,
+   "scroll": [1, 0.9],
+   "startingAnimation": "",
+   "zIndex": 4
+  },
+  {
+   "assetPath": "stalagmite_lava-left",
+   "atlasSettings": null,
+   "name": "stalagmite-left",
+   "position": [-422, 126],
+   "scale": 0.8,
+   "scroll": [1, 0.9],
+   "startingAnimation": "",
+   "zIndex": 4
+  },
+  {
+   "assetPath": "stalactites-left2",
+   "atlasSettings": null,
+   "name": "stalactite-left2",
+   "position": [-129, -656],
+   "scale": 0.8,
+   "scroll": [1.05, 0.95],
+   "startingAnimation": "",
+   "zIndex": 5
+  },
+  {
+   "assetPath": "stalactites-left1",
+   "atlasSettings": null,
+   "name": "stalactites-left",
+   "position": [-589, -522],
+   "scale": 0.8,
+   "scroll": [1.1, 1],
+   "startingAnimation": "",
+   "zIndex": 6
+  },
+  {
+   "assetPath": "stalactites-right2",
+   "atlasSettings": null,
+   "name": "stalactites-right1",
+   "position": [997, -627],
+   "scale": 0.8,
+   "scroll": [1.05, 0.95],
+   "startingAnimation": "",
+   "zIndex": 7
+  },
+  {
+   "assetPath": "stalactites-right1",
+   "atlasSettings": null,
+   "name": "stalactites-right2",
+   "position": [584, -649],
+   "scale": 0.8,
+   "scroll": [1.1, 1],
+   "startingAnimation": "",
+   "zIndex": 8
+  },
+  {
+   "assetPath": "stalagmites_fg-left",
+   "atlasSettings": null,
+   "name": "stalagmite-fg-left",
+   "position": [-404, 224],
+   "scale": 0.9,
+   "scroll": [1.05, 1.05],
+   "startingAnimation": "",
+   "zIndex": 800
+  },
+  {
+   "assetPath": "stalagmites_fg-right",
+   "atlasSettings": null,
+   "name": "stalagmite-fg-right",
+   "position": [916, 31],
+   "scale": 0.8,
+   "scroll": [1.05, 1.05],
+   "startingAnimation": "",
+   "zIndex": 900
+  }
+ ],
+ "characters": {
+  "bf": {
+   "cameraOffsets": [-100, -100],
+   "position": [894.5, 859],
+   "zIndex": 300
+  },
+  "dad": {
+   "cameraOffsets": [150, -50],
+   "position": [135, 535.66352554352],
+   "zIndex": 200
+  },
+  "gf": {
+   "cameraOffsets": [0, -75],
+   "position": [524.5, 764],
+   "zIndex": 100
+  }
+ },
+ "cameraZoom": 0.9
 }
