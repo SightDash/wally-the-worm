@@ -18,7 +18,7 @@ The mod is cross-platform, meaning it works on both PC and mobile devices (Andro
 
 # Changelog:
 
-### Release 1.0.0:
+### Release 1.0:
 - Added a finalized Devastation stage bg.
 - (Easy/Normal/Hard) Tweaked the camera zoom events in Devastation to use one zoom type consistently.
 - (Easy/Normal/Hard) Some long notes in Devastation are now longer.
