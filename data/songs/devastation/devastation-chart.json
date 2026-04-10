@@ -774,7 +774,7 @@
 	"scroll": 4,
 	"ease": "quart",
 	"easeDir": "Out",
-	"absolute": false
+	"absolute": true
 }
   },
   {
