@@ -55,6 +55,20 @@
 				0
 			],
 			"flipY": false,
+			"frameRate": 24,
+			"prefix": "wallyShy idle",
+			"frameIndices": [12, 13, 14, 15],
+			"animType": "framelabel",
+			"name": "idle-hold",
+			"looped": true,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
 			"frameRate": 16,
 			"prefix": "wallyShy singLEFT",
 			"animType": "framelabel",
