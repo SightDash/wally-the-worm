@@ -39,12 +39,14 @@ class ShySong extends Song {
   {
     VideoCutscene.play(Paths.videos('shyCutscene'));
   }
+
   function onSongRetry(event:ScriptEvent)
   {
     super.onSongRetry(event);
 
     hasPlayedCutscene = true;
   }
+
   function onCreate(event:ScriptEvent):Void
   {
     super.onCreate(event);
@@ -54,8 +56,10 @@ class ShySong extends Song {
   
     public override function isSongNew(currentDifficulty:String, currentVariation:String):Bool
   {
-    if (currentVariation == null) return !Save.instance.hasBeatenSong(this.id, null, this.variation);
-
-    return false;
+    if (currentVariation == 'default')
+    {
+      return !Save.instance.hasBeatenSong(this.id, null, this.variation);
+    }
+    return super.isSongNew(currentDifficulty, currentVariation);
   }
 }
