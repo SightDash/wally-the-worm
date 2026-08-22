@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "Confidence",
   "artist": "LAZOR",
-  "charter": "Eggum & SightDash",
+  "charter": "Eggum & SightMods",
   "divisions": 96,
   "looped": false,
   "offsets": {
@@ -39,7 +39,7 @@
       "hard": 3
     },
     "album": "volume1-wally",
-    "stickerPack": "standard-wally",
+    "stickerPack": "bonus-wallyWeek",
     "previewStart": 0,
     "previewEnd": 0
   },

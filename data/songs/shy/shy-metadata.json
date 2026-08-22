@@ -2,7 +2,7 @@
   "version": "2.2.4",
   "songName": "Shy",
   "artist": "LAZOR",
-  "charter": "SightDash",
+  "charter": "SightMods",
   "divisions": 96,
   "looped": false,
   "playData": {
@@ -33,7 +33,7 @@
       "hard": 4
     },
     "album": "volume1-wally",
-    "stickerPack": "standard-wally",
+    "stickerPack": "bonus-wallyWeek",
     "previewStart": 0,
     "previewEnd": 0
   },
