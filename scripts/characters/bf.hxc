@@ -42,13 +42,33 @@ class BoyfriendCharacter extends MultiAnimateAtlasCharacter
     }
   }
 
+  var notesLocked:Bool = false;
+
   override function playAnimation(name:String, restart:Bool = false, ignoreOther:Bool = false, reversed:Bool = false)
   {
+    if (notesLocked && name != 'preAttack' && name != 'attack')
+    {
+     enableKeys();
+    }
+
     super.playAnimation(name, restart, ignoreOther, reversed);
 
     if (name == "fakeoutDeath" && !this.debug)
     {
       doFakeoutDeath();
+    }
+
+    if (name == "preAttack" && !this.debug)
+    {
+      disableKeys();
+    }
+
+    if (name == "attack" && !this.debug)
+    {
+      this.animation.onFinish.addOnce(() ->
+      {
+        enableKeys();
+      });
     }
   }
 
@@ -67,15 +87,33 @@ class BoyfriendCharacter extends MultiAnimateAtlasCharacter
     });
   }
 
+  function disableKeys():Void
+  {
+    if (PlayState.instance == null) return;
+
+    notesLocked = true;
+    PlayState.instance.disableKeys = true;
+  }
+
+  function enableKeys():Void
+  {
+    if (!notesLocked) return;
+
+    notesLocked = false;
+
+    if (PlayState.instance != null)
+    {
+      PlayState.instance.disableKeys = false;
+    }
+  }
+
   function onNoteHit(event:HitNoteScriptEvent)
   {
     if (event.eventCanceled)
     {
-      // onNoteHit event was cancelled by the gameplay module.
       return;
     }
 
-    // Override the hit note animation.
     switch (event.note.kind)
     {
       case "alt":
