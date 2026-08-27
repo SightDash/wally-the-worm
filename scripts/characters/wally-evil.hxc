@@ -45,12 +45,21 @@ class WallyEvilCharacter extends MultiSparrowCharacter {
     }
 	
     if (name == 'transition') isNightmare = true;
+
+    //trace('[wallyEvil] playAnimation called: name=$name isNightmare=$isNightmare x=${this.x} y=${this.y} offsetX=${this.offset.x} offsetY=${this.offset.y} camFocusX=${this.cameraFocusPoint.x} camFocusY=${this.cameraFocusPoint.y}');
   }
   
   override function onSongRetry(event:ScriptEvent):Void
   {
+    //trace('[wallyEvil] onSongRetry START isNightmare= $isNightmare x=${this.x} y=${this.y} camFocusX=${this.cameraFocusPoint.x} camFocusY=${this.cameraFocusPoint.y}');
+
     super.onSongRetry(event);
 
-    isNightmare = false;
+    if (isNightmare)
+    {
+      isNightmare = false;
+    }
+
+    //trace('[wallyEvil] onSongRetry END isNightmare= $isNightmare x=${this.x} y=${this.y} camFocusX=${this.cameraFocusPoint.x} camFocusY=${this.cameraFocusPoint.y}');
   }
 }
