@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "Wally Vol. 1",
+  "artists": ["LAZOR"],
+  "albumArtAsset": "ui/freeplay/albums/volume1-wally",
+  "albumTitleAsset": "ui/freeplay/albums/volume1-wally-text",
+  "albumTitleOffsets": [8, -7],
+  "albumOSTName": "WTW OST"
+}

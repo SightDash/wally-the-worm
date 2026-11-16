@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "Wally (Shy)",
+  "assetPath": "gameplay/characters/wally-shy",
+  "renderType": "sparrow",
+  "scale": 0.45,
+  "singTime": 8.0,
+  "offsets": [0, 0],
+  "cameraOffsets": [0, 0],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "wallyShy idle"
+    },
+    {
+      "name": "idle-hold",
+      "prefix": "wallyShy idle",
+      "frameIndices": [12, 13, 14, 15],
+      "looped": true
+    },
+    {
+      "name": "singUP",
+      "prefix": "wallyShy singUP"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "wallyShy singDOWN"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "wallyShy singLEFT"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "wallyShy singRIGHT"
+    }
+  ]
+}

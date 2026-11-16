@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "Wally",
+  "assetPath": "gameplay/characters/wally",
+  "renderType": "sparrow",
+  "scale": 0.45,
+  "singTime": 8.0,
+  "offsets": [0, 0],
+  "cameraOffsets": [0, 0],
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Wally idle"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Wally singUP",
+      "offsets": [-53, 110]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Wally singDOWN",
+      "offsets": [-27, -148]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Wally singLEFT",
+      "offsets": [66, -37]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Wally singRIGHT",
+      "offsets": [-56, -114]
+    }
+  ]
+}
