@@ -18,6 +18,16 @@ The mod is cross-platform, meaning it works on both PC and mobile devices (Andro
 
 # Changelog:
 
+### Pre-release 1.1.2:
+- Ported the mod to 0.9.0 Preview 4.
+- Removed Faithful Funkers BF and GF.
+- Removed Faithful Funkers character icons.
+- Restructured mod files.
+- (Easy/Normal/Hard) Made small changes to the Devastation chart for better accuracy.
+
+### Release 1.1:
+- (Easy/Normal/Hard) Fixed Devastation so the second part of the song is now possible.
+
 ### Release 1.0:
 - Added a finalized Devastation stage bg.
 - (Easy/Normal/Hard) Tweaked the camera zoom events in Devastation to use one zoom type consistently.
@@ -37,14 +47,14 @@ The mod is cross-platform, meaning it works on both PC and mobile devices (Andro
 ### Pre-release 0.5.1:
 - Centered character in-game icons.
 
-### Pre-release 0.5.0:
+### Pre-release 0.5:
 - Ported the mod to the latest version of FNF (0.8.4).
 - Small bug fixes.
 
 ### Pre-release 0.4.1:
 - General bug fixes.
 
-### Pre-release 0.4.0:
+### Pre-release 0.4:
 - Removed leftover/unused assets.
 
 ### Pre-release 0.3.3:
