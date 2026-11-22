@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "Boyfriend - Wally Week",
+  "artist": "SightMods",
+  "stickers": [
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-bf-1",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-bf-2",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-bf-3",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-gf-1",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-gf-2",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-gf-3",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-pico-1",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-pico-2",
+    "ui/loading/stickers/graphics/stickers-set-1/sticker-pico-3",
+    "ui/loading/stickers/graphics/stickers-set-3/wally-sticker-1",
+    "ui/loading/stickers/graphics/stickers-set-3/wally-sticker-2",
+    "ui/loading/stickers/graphics/stickers-set-3/wally-sticker-3",
+    "ui/loading/stickers/graphics/stickers-set-3/misc-sticker-1",
+    "ui/loading/stickers/graphics/stickers-set-3/misc-sticker-2",
+    "ui/loading/stickers/graphics/stickers-set-3/misc-sticker-3"
+  ]
+}

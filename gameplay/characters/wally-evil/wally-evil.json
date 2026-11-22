@@ -8,7 +8,7 @@
 	],
 	"applyStageMatrix": false,
 	"scale": 1,
-	"name": "Wally Evil",
+	"name": "Wally (Evil)",
 	"flipX": false,
 	"cameraOffsets": [
 		0,
@@ -17,7 +17,7 @@
 	"isPixel": false,
 	"singTime": 8,
 	"startingAnimation": "idle",
-	"assetPath": "gameplay/characters/wally-evil",
+	"assetPath": "gameplay/characters/wally-evil/wally-evil",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [
@@ -113,7 +113,7 @@
 			"flipX": false,
 			"flipY": false,
 			"frameRate": 24,
-			"assetPath": "gameplay/characters/nightmare"
+			"assetPath": "gameplay/characters/nightmare/nightmare"
 		},
 		{
 			"offsets": [
@@ -127,7 +127,7 @@
 			"flipX": false,
 			"flipY": false,
 			"frameRate": 24,
-			"assetPath": "gameplay/characters/nightmare"
+			"assetPath": "gameplay/characters/nightmare/nightmare"
 		},
 		{
 			"offsets": [
@@ -141,7 +141,7 @@
 			"flipX": false,
 			"flipY": false,
 			"frameRate": 24,
-			"assetPath": "gameplay/characters/nightmare"
+			"assetPath": "gameplay/characters/nightmare/nightmare"
 		},
 		{
 			"offsets": [
@@ -155,7 +155,7 @@
 			"flipX": false,
 			"flipY": false,
 			"frameRate": 24,
-			"assetPath": "gameplay/characters/nightmare"
+			"assetPath": "gameplay/characters/nightmare/nightmare"
 		},
 		{
 			"offsets": [
@@ -169,7 +169,7 @@
 			"flipX": false,
 			"flipY": false,
 			"frameRate": 24,
-			"assetPath": "gameplay/characters/nightmare"
+			"assetPath": "gameplay/characters/nightmare/nightmare"
 		},
 		{
 			"offsets": [

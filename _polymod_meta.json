@@ -19,7 +19,7 @@
     }
   ],
   "optionalDependencies": {},
-  "api_version": "0.8.2",
-  "mod_version": "0.9.0",
-  "license": "CC BY 4.0"
+  "api_version": "0.9.0",
+  "mod_version": "1.2.0",
+  "license": "CC BY 4.0, MIT"
 }

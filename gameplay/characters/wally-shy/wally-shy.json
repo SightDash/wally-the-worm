@@ -1,8 +1,11 @@
 {
   "version": "1.0.0",
   "name": "Wally (Shy)",
-  "assetPath": "gameplay/characters/wally-shy",
+  "assetPath": "gameplay/characters/wally-shy/wally-shy",
   "renderType": "sparrow",
+  "healthIcon": {
+    "id": "wally-shy"
+  },
   "scale": 0.45,
   "singTime": 8.0,
   "offsets": [0, 0],

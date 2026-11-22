@@ -1,8 +1,11 @@
 {
   "version": "1.0.0",
   "name": "Wally",
-  "assetPath": "gameplay/characters/wally",
+  "assetPath": "gameplay/characters/wally/wally",
   "renderType": "sparrow",
+  "healthIcon": {
+    "id": "wally"
+  },
   "scale": 0.45,
   "singTime": 8.0,
   "offsets": [0, 0],
